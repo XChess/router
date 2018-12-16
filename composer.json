@@ -1,2 +1,30 @@
 {
+    "name": "shiny-crystals/router",
+    "description": "The easiest to use php router designed by crystal framework.",
+    "keywords": [
+        "php7",
+        "crystal-framework",
+        "router",
+        "flexible",
+        "fast"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Crystal Router Contributors",
+            "homepage": "https://github.com/shiny-crystals/router/graphs/contributors",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crystal\\Router\\": "./src"
+        }
+    }
 }
